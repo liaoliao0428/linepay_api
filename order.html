@@ -1,0 +1,18 @@
+<!-- localhost/subject/linepay_api/order.html -->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>下單</title>
+    </head>
+
+    <body>
+            <form method="POST" action="http://localhost/subject/linepay_api/linepay_api.php">
+                <input type="text" name="productName" required="required" placeholder="輸入商品名稱">
+                <br/><br/>
+                <input type="text" name="amount" required="required" placeholder="輸入金額">
+                <br/><br/>
+                <input type="submit" value="Linepay付款">                        
+            </form>
+    </body>
+</html>
